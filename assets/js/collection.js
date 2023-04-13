@@ -8,7 +8,7 @@ const collection = [
         ],
         releaseYear: 2011,
         cover: "url('./assets/img/gameCovers/minecraft.jpg')",
-        genres: [
+        types: [
             "Sandbox", 
             "Survival", 
             "Build"
@@ -18,7 +18,7 @@ const collection = [
             "multiplayer"
         ],
         sales: 238000000,
-        plateformes: [
+        platforms: [
             "Microsoft",
             "Windows", 
             "MacOS", 
@@ -50,17 +50,17 @@ const collection = [
         ],
         releaseYear: 2013,
         cover: "url('./assets/img/gameCovers/gtaV.jpg')",
-        genres: [
+        types: [
             "Action", 
             "Adventure", 
-            "Shoot"
+            "Shooter"
         ],
         modes: [
             "solo",
             "multiplayer"
         ],
         sales: 175000000,
-        plateformes: [
+        platforms: [
             "PlayStation 3", 
             "Xbox 360", 
             "PlayStation 4", 
@@ -77,7 +77,7 @@ const collection = [
         ],
         releaseYear: 2018,
         cover: "url('./assets/img/gameCovers/rdr2.jpg')",
-        genres: [
+        types: [
             "Action", 
             "Adventure", 
             "Shooter"
@@ -87,7 +87,7 @@ const collection = [
             "multiplayer"
         ],
         sales: 50000000,
-        plateformes: [
+        platforms: [
             "PlayStation 3", 
             "Xbox 360", 
             "PlayStation 4", 
@@ -106,7 +106,7 @@ const collection = [
         ],
         releaseYear: 2011,
         cover: "url('./assets/img/gameCovers/terraria.avif')",
-        genres: [
+        types: [
             "Sandbox", 
             "Adventure"
         ],
@@ -115,7 +115,7 @@ const collection = [
             "multiplayer"
         ],
         sales: 44050000,
-        plateformes: [
+        platforms: [
             "Microsoft Windows", 
             "OS X", 
             "Linux, Apple iOS", 
@@ -138,7 +138,7 @@ const collection = [
         ],
         releaseYear: 1985,
         cover: "url('./assets/img/gameCovers/supermariobros.jpg')",
-        genres: [
+        types: [
             "Platforms"
         ],
         modes: [
@@ -146,7 +146,7 @@ const collection = [
             "two players"
         ],
         sales: 43017000,
-        plateformes: [
+        platforms: [
             "Nintendo Entertainment System", 
             "Game Boy Advance", 
             "Wii"
@@ -159,14 +159,14 @@ const collection = [
         ],
         releaseYear: 2015,
         cover: "url('./assets/img/gameCovers/the-witcher-3.jpg')",
-        genres: [
-            "Action-RPG"
+        types: [
+            "RPG"
         ],
         modes: [
             "solo"
         ],
         sales: 40000000,
-        plateformes: [
+        platforms: [
             "Microsoft Windows", 
             "Xbox One", 
             "PlayStation 4", 
@@ -182,14 +182,14 @@ const collection = [
         ],
         releaseYear: 2017,
         cover: "url('./assets/img/gameCovers/zeldaofthewild.jpg')",
-        genres: [
-            "Action-Adventure"
+        types: [
+            "Action"
         ],
         modes: [
             "solo"
         ],
         sales: 30070000,
-        plateformes: [
+        platforms: [
             "Nintendo Switch", 
             "Wii U"
         ]
@@ -201,7 +201,7 @@ const collection = [
         ],
         releaseYear: 2012,
         cover: "url('./assets/img/gameCovers/diablo-3.jpg')",
-        genres: [
+        types: [
             "Hack'n'slash"
         ],
         modes: [
@@ -209,7 +209,7 @@ const collection = [
             "multiplayer"
         ],
         sales: 30000000,
-        plateformes: [
+        platforms: [
             "Windows", 
             "Mac OS X", 
             "PS3", 
@@ -226,14 +226,14 @@ const collection = [
         ],
         releaseYear: 2011,
         cover: "url('./assets/img/gameCovers/elder-scroll-5.jpg')",
-        genres: [
-            "Action-RPG"
+        types: [
+            "RPG"
         ],
         modes: [
             "solo"
         ],
         sales: 30000000,
-        plateformes: [
+        platforms: [
             "Microsoft Windows", 
             "PlayStation 3", 
             "Xbox 360", 
@@ -249,10 +249,10 @@ const collection = [
         ],
         releaseYear: 2011,
         cover: "url('./assets/img/gameCovers/borderlands2.jpg')",
-        genres: [
-            "Shooter first person",
-            "Hack'n'Slash",
-            "Action-RPG"
+        types: [
+            "Action",
+            "Shooter",
+            "Hack'n'slash"
         ],
         modes: [
             "solo",
@@ -260,7 +260,7 @@ const collection = [
             "Four players"
         ],
         sales: 27000000,
-        plateformes: [
+        platforms: [
             "Microsoft Windows", 
             "PlayStation 3", 
             "Xbox 360", 

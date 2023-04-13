@@ -40,6 +40,47 @@ header{
     padding: 0 10px;
   }
 }
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0;
+  article{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(32, 32, 32);
+    .article__banner{
+      height: 200px;
+      width: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .article__text{
+      padding: 15px;
+      h2{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+      }
+      &__ul{
+        list-style: none;
+        display: flex;
+        justify-content:flex-start;
+        li{
+          margin-right: 10px;
+          padding: 5px;
+          // @if li()
+          background-color: green;
+        }
+      }
+    }
+
+  }
+}
 
 @media screen and (min-width: 576px) {
   header{
@@ -74,7 +115,7 @@ header{
     background-color: #F2F2F2;
   }
   header, main{
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
   }
   main{

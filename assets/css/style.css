@@ -21,16 +21,16 @@ header .header__section--img {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  border: 2px dotted rgb(138, 31, 106);
+  border: 2px dotted rgb(212, 16, 16);
   overflow: hidden;
-  background-image: url(../img/bridge-player.jpg);
+  background-image: url(../img/steve.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   margin: 0 auto;
 }
-header .header__fullname {
+header .header__title {
   font-family: "Merriweather", serif;
   font-size: 18px;
   text-align: center;
@@ -50,6 +50,8 @@ main {
   justify-content: center;
   gap: 15px;
   padding: 20px 0;
+  /* -------- BONUS -------- */
+  /* ----------------------- */
 }
 main article {
   height: 400px;
@@ -115,12 +117,37 @@ main article .article__text .article__platform__ul li {
 main article .article__text .article__platform__ul li::before {
   content: "→";
 }
+main .bonus__sortContainer {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 15px 40px;
+  margin: 0 0 15px 0;
+}
+main .bonus__sortContainer .bonus__sortSelect {
+  width: 150px;
+  height: 25px;
+  margin-left: 25px;
+}
+main .bonus__removeButton {
+  height: 35px;
+  width: 35px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  filter: grayscale(1);
+}
 
 @media screen and (min-width: 576px) {
   header {
     display: grid;
     grid-template-columns: 140px 1fr;
-    grid-template-rows: 40px auto;
+    grid-template-rows: 40px 50px;
     overflow: hidden;
   }
   header .header__section--img {
@@ -130,7 +157,7 @@ main article .article__text .article__platform__ul li::before {
     height: 85px;
     width: 85px;
   }
-  header .header__fullname {
+  header .header__title {
     grid-row: 1;
     grid-column: 2;
     text-align: left;
